@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class DatabaseConnector {
     
-    private static final String DB_PATH = "F:/Writing/Chaitanya UK/Winter 2026/7COM1025 Coursework Briefing/Furzefield Leisure Centre/db/Furzefield_Leisure_Centre.db";
-    private static final String JDBC_URL = "jdbc:sqlite:" + DB_PATH;
+    
+    private static final String JDBC_URL = "jdbc:sqlite:db/Furzefield_Leisure_Centre.db";
 
     public Connection connect() {
         
